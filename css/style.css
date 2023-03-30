@@ -1,6 +1,61 @@
 
 
 
+
+
+body {
+    padding: 50px;
+    margin: 0;
+}
+
+.nav {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-end;
+    align-items: baseline;
+    background-color: #D9D9D9;
+}
+
+.nav li {
+    display: inline-block;
+    font-size: 24px;
+    padding: 20px
+}
+
+.hero {
+    color: white;
+    text-align: left;
+    background-image: url(../images/herobackground.png);
+    padding-top: 100px;
+    padding-bottom: 300px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.aboutme {
+display: inline-block;
+padding: 50;
+}
+
+#container1 {
+margin-left: auto;
+margin-right: auto;
+padding-left: 50px;
+padding-right: 50px;
+}
+
+
+#column {
+    flex-direction: column;
+}
+
+#row {
+ flex-direction: row;
+}
+
+
 button {
     background-color: #800C0C;
     color: white;

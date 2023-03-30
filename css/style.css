@@ -4,8 +4,7 @@
 
 
 body {
-    padding: 50px;
-    margin: 0;
+    margin: auto;
 }
 
 .nav {
@@ -17,10 +16,15 @@ body {
     background-color: #D9D9D9;
 }
 
-.nav li {
-    display: inline-block;
-    font-size: 24px;
-    padding: 20px
+footer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-end;
+    align-items: baseline;
+    text-align: right;
+    background-color: #D9D9D9;
+    margin-top: 15%;
 }
 
 .hero {
@@ -28,15 +32,52 @@ body {
     text-align: left;
     background-image: url(../images/herobackground.png);
     padding-top: 100px;
-    padding-bottom: 300px;
+    padding-bottom: 400px;
     width: 100%;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
+.heroh1 {
+    font-size: 64px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: bolder;
+    text-align: left;
+    padding-bottom: 50px;
+    padding-top: 75px;
+    padding-left: 50px;
+    color: white
+}
+
+.heroh4 {
+    font-size: 25px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: bold;
+    text-align: left;
+    padding-left: 100px;
+    color:white
+}
+
+.nav li {
+    display: inline-block;
+    font-size: 24px;
+    padding: 20px
+}
+
+.left {
+    float: left;
+    padding-bottom: 50px;
+    padding-right: 15%;
+
+}
+
+.right {
+    float: right;
+    padding: 50px;
+}
+
 .aboutme {
-display: inline-block;
-padding: 50;
+    margin-top: 10%;
 }
 
 #container1 {
@@ -53,16 +94,17 @@ padding-right: 50px;
 
 #row {
  flex-direction: row;
+ text-align: right;
 }
-
 
 button {
     background-color: #800C0C;
     color: white;
     text-align: center;
-    margin-block: 15px;
-    margin-bottom: 40px;
+    margin-top: 5%;
+    margin-bottom: 5%;
     font-size: 24px;
+    padding: 1%;
 }
 
 h1 { 
@@ -76,7 +118,6 @@ h1 {
 h2 {
     font-size: 38px;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    text-align: right;
     color:#1E1E1E
 }
 
@@ -84,7 +125,7 @@ h3 {
     font-size: 35px;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-weight: bold;
-    text-align: right;
+    text-align: left;
     color:#1E1E1E
 }
 
@@ -104,27 +145,10 @@ h5 {
     color:#1E1E1E
 }
 
-p1 { 
+p { 
     font-size: 22px;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-weight:lighter;
-    text-align: right;
+    font-weight: normal;
     color:#1E1E1E
-}
-
-p2 {
-    font-size: 20px;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-weight:lighter;
-    text-align: right;
-    color:#1E1E1E 
-}
-
-p3 {
-    font-size: 15px;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-weight:lighter;
-    text-align: right;
-    color:#1E1E1E 
 }
   

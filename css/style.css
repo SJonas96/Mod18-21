@@ -26,7 +26,6 @@ footer {
     align-items: baseline;
     text-align: right;
     background-color: #D9D9D9;
-    margin-top: 15%;
 }
 
 .hero {
@@ -145,6 +144,7 @@ row-gap: 25%;
     justify-content: flex-start;
     column-gap: 20px;
     row-gap: 25%;
+    padding-bottom: 200px;
 }
 
 .Elemental {
@@ -165,6 +165,65 @@ row-gap: 25%;
     padding-inline: 30px;
 }
 
+.design {
+    background-image:url(../images/portfoliobg.png);
+    display: grid;
+    padding-top: 150px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 3500px;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-areas: "Dynatron Netflix Ham" "Monster Submerged Osprey";
+    justify-content: flex-start;
+    column-gap: 10px;
+    row-gap: 5%;
+    color: #FFFFFF;
+    text-align: left;
+}
+
+.Dynatron {
+    grid-area: Dynatron;   
+    padding-inline: 30px;
+    padding-top: 88px;
+    border-radius: 30px;
+}
+
+.Netflix {
+    grid-area: Netflix;   
+    padding-inline: 30px;
+    padding-top: 200px;
+    border-radius: 30px;
+}
+
+.Ham {
+    grid-area: Ham;   
+    padding-inline: 30px;
+    padding-top: 200px;    
+    border-radius: 30px;
+}
+
+.Monster {
+    grid-area: Monster;   
+    padding-inline: 30px;
+    border-radius: 30px;
+    padding-top: -700px;
+}
+
+.Submerged {
+    grid-area: Submerged;   
+    padding-inline: 30px;
+    border-radius: 30px;
+    padding-top: -600px;
+}
+
+.Osprey {
+    grid-area: Osprey;   
+    padding-inline: 30px;
+    border-radius: 30px;
+    padding-top: -600px;
+}
 
 #container1 {
 margin-left: auto;
@@ -214,14 +273,12 @@ h3 {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-weight: bold;
     text-align: left;
-    color:#1E1E1E
 }
 
 h4 {
     font-size: 25px;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-weight: bold;
-    color:#1E1E1E
 }
 
 h5 {

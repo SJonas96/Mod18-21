@@ -94,13 +94,19 @@ background-repeat: repeat;
 display: grid;
 height: 700px;
 grid-template-columns: 1fr 1fr;
-grid-template-rows: 1fr 1fr;
-grid-template-areas: "UserResearch UserEmpathy" "Skills Skills";
+grid-template-rows: 1fr 1fr 1fr;
+grid-template-areas: "Title Title" "UserResearch UserEmpathy" "Skills Skills";
 justify-content: center;
 align-items: center;
 column-gap: 20px;
 row-gap: 25%;
 }
+
+.SkillTitle {
+    grid-area: Title;
+    color: white;
+}
+
 
 .UserResearch {
     grid-area: UserResearch;
@@ -109,7 +115,6 @@ row-gap: 25%;
     width: 477px;
     height: 412px;
     text-align: center;
-    margin-top: 10px;
     align-items: center;
 }
 
@@ -120,7 +125,6 @@ row-gap: 25%;
     width: 477px;
     height: 412px;
     text-align: center;
-    margin-top: 10px;
 }
 
 .skills {
@@ -172,16 +176,24 @@ row-gap: 25%;
     width: 100%;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 3500px;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
-    grid-template-areas: "Dynatron Netflix Ham" "Monster Submerged Osprey";
+    grid-template-rows: 40px 1fr 40px 1fr;
+    grid-template-areas: "Title Title Title" "Dynatron Netflix Ham" "Title2 Title2 Title2" "Monster Submerged Osprey";
     justify-content: flex-start;
     column-gap: 10px;
     row-gap: 5%;
     color: #FFFFFF;
     text-align: left;
 }
+
+.DesignTitle {
+    grid-area: Title;
+}
+
+.DesignTitle2 {
+    grid-area: Title2;
+}
+
 
 .Dynatron {
     grid-area: Dynatron;   

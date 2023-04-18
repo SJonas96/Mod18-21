@@ -58,6 +58,7 @@ footer {
     padding-left: 100px;
     color:white
 }
+  
 
 .nav li {
     display: inline-block;
@@ -262,9 +263,9 @@ button {
     text-align: center;
     margin-top: 5%;
     margin-bottom: 5%;
-    font-size: 24px;
+    font-size: 15px;
     font-weight: bold;
-    padding: 3%;
+    padding: 1.5%;
     border-radius: 8px;
     border: #FFFFFF;
 }
